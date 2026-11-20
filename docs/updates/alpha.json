@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.1-alpha",
+  "channel": "alpha",
+  "notes": "这是 Alpha 测试版。应用内更新包经过 Capfly 验签。安装包未要求 Apple 公证或 Windows Authenticode 签名，系统可能显示安全提示。\n\n# Capfly 桌面端 v1.0.1-alpha\n\nCapfly 桌面端首个 Alpha 版本，提供面向 AI 协作、文件工作区与自动化任务的基础能力。\n\n## AI 工作台\n\n- 支持多会话对话、消息排队、会话钉住及未读回复提示。\n- 支持切换模型与推理等级，并可配置、自定义和测试模型供应商连接。\n- 支持流式展示执行过程、工具调用、代码内容与运行状态。\n- 支持手动压缩对话上下文，长对话可按需加载历史消息。\n- 支持在独立侧栏中按标签页预览 AI 生成的交付物。\n- 支持授权或拒绝 AI 发起的敏感操作请求。\n- 支持图像生成模型与 Computer Use 会话。\n\n## 文件与资源\n\n- 支持浏览指定范围内的工作区文件。\n- 支持文件变化监听与实时预览。\n- 支持 Markdown、代码等内容预览，并优化了主题适配与高亮显示。\n- 提供统一的资源侧栏、工具栏和工作台切换体验。\n\n## 工作流与任务\n\n- 支持创建、编辑和管理工作流及工作流节点。\n- 支持任务创建、编辑与管理。\n- 支持按周设置计划任务，并可选择多个执行日。\n- 支持查看执行活动和任务交付物。\n\n## 知识与创作\n\n- 支持知识库内容管理。\n- 提供风格板视图。\n- 改进 AI 建议、实时转写与降噪相关体验。\n\n## 桌面体验\n\n- 支持跟随系统切换明暗主题。\n- 优化登录、个人资料、组织管理与设置页面。\n- 改进浏览器标签恢复、导航状态和侧栏交互。\n- 统一字体、图标、间距、动效与运行状态配色。\n\n\u003e 此版本为 Alpha 初始版本，功能与交互仍可能持续调整。\n",
+  "publishedAt": "2026-11-20T07:26:13Z",
+  "artifacts": [
+    {
+      "url": "https://github.com/jianyuezhexue/capfly/releases/download/v1.0.1-alpha/Capfly-1.0.1-alpha-darwin-arm64-update.zip",
+      "platform": "darwin",
+      "arch": "arm64",
+      "size": 74859146,
+      "digestAlgo": "sha512",
+      "digest": "YZN9zj4nxufNlUBRdYMl4jxGlutywv3iLDZfwxcPleOwxS+6EQ5mX5CCkDhm8Fk9mjyc1C2ClOfKXi9vgZ5xdQ==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "a6LaqEH3qb1LLLEfVKDacXGDxdW/DG3mFNwGmjDgyD+CbZtAzDakahye6v/9VI3R2j9EDI8xAaOu2ceg8NxAAQ=="
+    },
+    {
+      "url": "https://github.com/jianyuezhexue/capfly/releases/download/v1.0.1-alpha/Capfly-1.0.1-alpha-darwin-amd64-update.zip",
+      "platform": "darwin",
+      "arch": "amd64",
+      "size": 78782398,
+      "digestAlgo": "sha512",
+      "digest": "xUvdqUUfxsuDG/YVtorAOeeFoq1ZUfQdLzv18y+NMIK0gBtXTRPFJ3LbfKEPPoeUDQTzZdgPfiujl3Q+M+ijyg==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "hZSiLcTvx+JBFVXDy4Frl8xFtuP0o9HxpKSTOtyDy5K5t7aHl/mv+cs04fwQnvo3ZEKFQ+sm6vBuu2OUKOhVBQ=="
+    },
+    {
+      "url": "https://github.com/jianyuezhexue/capfly/releases/download/v1.0.1-alpha/Capfly-1.0.1-alpha-windows-amd64-update.exe",
+      "platform": "windows",
+      "arch": "amd64",
+      "size": 184085504,
+      "digestAlgo": "sha512",
+      "digest": "VJadLzytwYjhp8QgvnAqiF4tsM8B4EanL6Gc/yS9XnHLi0SkeJY+HP2r5dFySOuet7nJm0nbDj9viMOeh771XQ==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "G9inoopQueMNFGdRhM3aQeUWx1hFnrE/qem/TuAuxVOGLSkVThbxqOW17d32bFjdlC+efYWJohVP1Yrpu6bWBQ=="
+    }
+  ]
+}
